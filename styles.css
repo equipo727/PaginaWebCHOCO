@@ -7,6 +7,10 @@
     background-image: url("img/perri\ 555.jpeg");
     
 }
+.body{
+    font-family: 'Oswald', sans-serif;
+    
+}
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
