@@ -1,0 +1,145 @@
+/* hero background image */
+.bgimage {
+    height: 100vh;
+    background-color: 515151;
+    background-size: cover;
+    position: relative;
+    background-image: url("img/perri\ 555.jpeg");
+    
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+
+.hero_desc {
+    font-size: 2rem;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.subtitulo {
+    font-size: 3rem;
+}
+
+.imageAboutPage {
+    width: 100%;
+}
+.icon{
+    width: 5%;
+    height: 5%;
+}
+@media (min-width: 990px) {
+    .imageIconProyect {
+      margin-left: 190px;
+    }
+    .servicesText.card {
+        height: 300px;
+        cursor: pointer;
+    }
+}
+.imageIconProyect {
+    width: 100%;
+    display: block;
+    margin-right: auto;
+}
+
+/* services section css */
+
+
+.servicesText.card {
+    height: auto;
+    cursor: pointer;
+}
+
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card {
+    background-color: #515151;
+}
+
+.list-group-item {
+    background-color: #515151;
+}
+
+.card:hover .servicesIcon {
+    color:  #3c0464 ;
+}
+
+.servicesText:hover {
+    border: 2px solid #3c0464 ;
+}
+
+/* spacing on all sections */
+#beneficios,
+#proyecto,
+#galeria,
+#SobreNosotros,
+#contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+
+.custom-img-height {
+    height: 250px;
+    /* Ajusta la altura según tus necesidades */
+}
+
+/* display background color black on navbar scroll */
+.navbarScroll.dark {
+    background-color: #666666;
+    
+}
+
+/* Estilos personalizados para la imagen del grupo */
+.group-image {
+    width: 500px; 
+    height: 500px;
+    /* Ajusta el tamaño máximo de la imagen */
+    display: block;
+    /* Para centrar la imagen horizontalmente */
+    margin: auto;
+    /* Para centrar la imagen horizontalmente */
+    margin-bottom: 20px;
+    /* Espacio entre la imagen y el texto */
+    border: 2px solid  #3c0464 ;
+
+}
+
+#contact {
+    padding-bottom: 4rem;
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color:#660096 ;
+}
+.fab {
+    color:black;
+}
+/* footer styling */
+#footer {
+    background-color:#515151;
+    text-align: center;
+}
+
